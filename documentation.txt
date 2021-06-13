@@ -1,0 +1,13 @@
+chmonth() : function
+This function assigns mon the dates of the month from 1-31.
+Every value of array Day is emptied first.
+Then we check whether year is leap year or not.
+After that, extra dates are popped out of array mon.
+The head head of the calendar is then colored according to month.
+
+chdate() : function
+This function first empties every cell in the body of table.
+Then it assigns every date its day accordingly.
+After that, prcode assigns a cell to respective dates
+for confirmation we print every date with its day in console.
+today's date is colored with the theme color in background.
